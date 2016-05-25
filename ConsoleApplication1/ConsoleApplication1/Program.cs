@@ -29,6 +29,7 @@ namespace ConsoleApplication1
             Console.WriteLine(Calculator.Sum(10,5));
             Console.WriteLine("Difference is:");
             Console.WriteLine(Calculator.Dif(10,5));
+            SayHello();
         }
 
         static void SayHello()
