@@ -15,10 +15,12 @@ static class Calculator
     {
         return x - y;
     }
+
 }
 
 namespace ConsoleApplication1
 {
+
     class Program
     {
         static void Main(string[] args)
@@ -27,6 +29,11 @@ namespace ConsoleApplication1
             Console.WriteLine(Calculator.Sum(10,5));
             Console.WriteLine("Difference is:");
             Console.WriteLine(Calculator.Dif(10,5));
+        }
+
+        static void SayHello()
+        {
+            Console.WriteLine("Hello world");
         }
     }
 }
